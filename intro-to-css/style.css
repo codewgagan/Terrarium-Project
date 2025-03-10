@@ -1,53 +1,102 @@
 body {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-
-  h1 {
-    color: #c94b24;
-    text-align: center;
-  }
-
-  #page{
-   background: #eee;
-   hiegh
-   display: flex;
-}
-  #left-side{
-   position: absolute;
-   padding: 10px;
-   height: 100%;
-   width: 15%;
-   left: 0px;
-   /* background: blue; */
-   
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
-#right-side{
-   /* background: red; */
-   position: absolute;
-   height: 100%;
-   width: 15%;
-   right: 0px;
-   padding: 10px;
- }
+h1 {
+  color: #c94b24;
+  text-align: center;
+}
 
- .plant-holder {
-	position: relative;
-	height: 13%;
-	left: -10px;
+#page {
+  /* background: #eee; */
+  display: flex;
+}
+#left-side {
+  position: absolute;
+  padding: 10px;
+  height: 100%;
+  width: 15%;
+  left: 0px;
+  /* background: blue; */
+}
+
+#right-side {
+  /* background: red; */
+  position: absolute;
+  height: 100%;
+  width: 15%;
+  right: 0px;
+  padding: 10px;
+}
+
+.plant-holder {
+  position: relative;
+  height: 13%;
+  left: -10px;
 }
 
 .plant {
-	position: absolute;
-	max-width: 150%;
-	max-height: 150%;
-	z-index: 2;
+  position: absolute;
+  max-width: 150%;
+  max-height: 150%;
+  z-index: 2;
 }
 
-.terrarium{
-   background: red;
-   height: 100%;
-   width: 100%;
+.terrarium {
+  background: red;
+  height: 100%;
+  width: 100%;
+}
+
+.jar-walls {
+  height: 80%;
+  width: 60%;
+  background: #d1e1df;
+  position: absolute;
+  border-radius: 5%;
+  bottom: 0.5%;
+  left: 20%;
+  opacity: 0.5;
+}
+
+.top-jar {
+  height: 5%;
+  width: 40%;
+  background: #d0e7e7;
+  position: absolute;
+  bottom: 80.5%;
+  left: 30%;
+  border-radius: 5%;
+  opacity: 0.5;
+}
+
+.bottom-jar {
+  height: 10%;
+  width: 60%;
+  bottom: 0%;
+  left: 20%;
+  position: absolute;
+  background: #606262;
+  border-radius: 5%;
+}
+.glossy-small {
+  height: 5%;
+  width: 5%;
+  border-radius: 2rem;
+  bottom: 40%;
+  right: 90%;
+  position: absolute;
+  background: #ddfbff;
+}
+
+.glossy-long {
+  height: 15%;
+  width: 5%;
+  position: absolute;
+  background: #ddfbff;
+  border-radius: 3rem;
+  bottom: 25%;
+  right: 90%;
 }
